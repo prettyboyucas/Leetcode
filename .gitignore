@@ -5,3 +5,5 @@
 *.vs/
 *.VS.opendb
 *.opendb
+Leetcode/Debug/*
+/Debug/*
