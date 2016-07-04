@@ -1,3 +1,7 @@
 #c++
 .vs/
 .VS.opendb
+.opendb
+*.vs/
+*.VS.opendb
+*.opendb
