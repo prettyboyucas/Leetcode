@@ -11,4 +11,14 @@
 - 采用归并排序
 - 最后利用sortTwoList合并起来
 
+##147.InsertionSortList
+- 新建一个辅助接点，再利用插入法一个一个添加新元素进去
 
+``` C++
+while(pre->next!= nullptr && pre->next->val <= cur->val){
+    pre= pre->next;
+}
+cur->next = pre->next; //将cur插入pre->next之前
+pre->next = cur;//将cur插入pre之后
+cur = pNext;//递增进入下一个
+```
