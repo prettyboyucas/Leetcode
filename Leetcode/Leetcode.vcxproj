@@ -142,9 +142,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="147InsertionSortList.cpp" />
+    <ClCompile Include="148SortList.cpp" />
     <ClCompile Include="19RomoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="20ValidParentheses.cpp" />
     <ClCompile Include="21MergeTwoSortedLists.cpp" />
+    <ClCompile Include="22GenerateParentheses.cpp" />
+    <ClCompile Include="23MergekSortedLists.cpp" />
+    <ClCompile Include="88MergeSortedArray.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

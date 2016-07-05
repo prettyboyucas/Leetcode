@@ -4,10 +4,11 @@
 #include <map>
 #include <list>
 #include <vector>
+#include <queue>
 
 using namespace std;
 using std::list;
-
+using std::priority_queue;
 using std::map;
 using std::stack;
 using std::string;
@@ -86,32 +87,3 @@ public:
 	}
 };
 
-//23. Merge k Sorted Lists
-//先merge两个，再循环调用一一个一个的merge;时间复杂度高啊n+2n+3n+...+kn
-class Solution21_2 {
-public:
-	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-		if (l1 == nullptr)
-			return l2;
-		else if (l2 == nullptr)
-			return l1;
-		ListNode* pNode = nullptr;
-		if (l1->val < l2->val) {
-			pNode = l1;
-			pNode->next = mergeTwoLists(l1->next, l2);
-		}
-		else {
-			pNode = l2;
-			pNode->next = mergeTwoLists(l1, l2->next);
-		}
-		return pNode;
-	}
-	ListNode* mergeKLists(vector<ListNode*>& lists) {
-		ListNode* ret = nullptr;
-		for (size_t  i = 0; i<lists.size(); ++i) {
-			ret = mergeTwoLists(ret, lists[i]);
-		}
-		return ret;
-	}
-};
-//解法二:利用分治法思想
