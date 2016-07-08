@@ -42,5 +42,64 @@
     <ClCompile Include="22GenerateParentheses.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="24SwapNodesinPairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26RemoveduplicatefromSortedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27RemoveElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="203RomoveLinkedListElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="283Move Zeroes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="219containsDuplicateII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="217containDuplicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="220Contains Duplicate III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28Implement_strStr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29DivideTwointegers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38CountandSay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36ValidSudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37SudokuSolver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58. Length of Last Word.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66. Plus One.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="67.AddBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43.MultiplyStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="70ClimbingStairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

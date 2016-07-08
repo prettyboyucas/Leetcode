@@ -82,7 +82,7 @@ public:
 
 //解法3 采用二分法，利用递归
 
-class Solution21_2 {
+class Solution21_23 {
 public:
 	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
 		if (l1 == nullptr)

@@ -1,0 +1,3 @@
+﻿  mytest.cpp
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mytest.cpp(45): error C2039: “climbStairs”: 不是“Solution”的成员
+  c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mytest.cpp(12): note: 参见“Solution”的声明
