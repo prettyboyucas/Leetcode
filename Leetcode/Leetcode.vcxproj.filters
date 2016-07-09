@@ -96,6 +96,48 @@
     <ClCompile Include="70ClimbingStairs.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="83.RemoveDuplicatesfromSortedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="82.RemoveDuplicatesfromSortedListII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="80.SameTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="101Symmetirc tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="102.BinaryTreeLevelOrderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="103.BinaryTreeZigZagLevelOrderTranvesal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="104MaximumDepthofBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="110.BalancedbinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="111. Minimum Depth of Binary Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="107. Binary Tree Level Order Traversal II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="105ConstructBinaryTreefromRreorderandInorderTraveral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="106ConstructBinaryTreefrominorderandPostorderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="108ConvertSortedArraytoBinarySearchTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="109.ConvertSortedListtoBinarySearchTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

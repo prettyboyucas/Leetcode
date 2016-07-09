@@ -142,6 +142,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="101Symmetirc tree.cpp" />
+    <ClCompile Include="102.BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="103.BinaryTreeZigZagLevelOrderTranvesal.cpp" />
+    <ClCompile Include="104MaximumDepthofBinaryTree.cpp" />
+    <ClCompile Include="105ConstructBinaryTreefromRreorderandInorderTraveral.cpp" />
+    <ClCompile Include="106ConstructBinaryTreefrominorderandPostorderTraversal.cpp" />
+    <ClCompile Include="107. Binary Tree Level Order Traversal II.cpp" />
+    <ClCompile Include="108ConvertSortedArraytoBinarySearchTree.cpp" />
+    <ClCompile Include="109.ConvertSortedListtoBinarySearchTree.cpp" />
+    <ClCompile Include="110.BalancedbinaryTree.cpp" />
+    <ClCompile Include="111. Minimum Depth of Binary Tree.cpp" />
     <ClCompile Include="147InsertionSortList.cpp" />
     <ClCompile Include="148SortList.cpp" />
     <ClCompile Include="19RomoveNthNodeFromEndofList.cpp" />
@@ -167,6 +178,9 @@
     <ClCompile Include="66. Plus One.cpp" />
     <ClCompile Include="67.AddBinary.cpp" />
     <ClCompile Include="70ClimbingStairs.cpp" />
+    <ClCompile Include="80.SameTree.cpp" />
+    <ClCompile Include="82.RemoveDuplicatesfromSortedListII.cpp" />
+    <ClCompile Include="83.RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="88MergeSortedArray.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
