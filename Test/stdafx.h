@@ -14,6 +14,9 @@
 #include <vector>
 #include <algorithm>
 #include <queue>
+#include <stack>
+#include <cstdlib>
+#include <cstdio>
 
 
 
