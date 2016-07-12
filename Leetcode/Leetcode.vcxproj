@@ -153,6 +153,8 @@
     <ClCompile Include="109.ConvertSortedListtoBinarySearchTree.cpp" />
     <ClCompile Include="110.BalancedbinaryTree.cpp" />
     <ClCompile Include="111. Minimum Depth of Binary Tree.cpp" />
+    <ClCompile Include="112.PathSum.cpp" />
+    <ClCompile Include="113PathSumII.cpp" />
     <ClCompile Include="147InsertionSortList.cpp" />
     <ClCompile Include="148SortList.cpp" />
     <ClCompile Include="19RomoveNthNodeFromEndofList.cpp" />

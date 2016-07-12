@@ -1,3 +1,2 @@
 ﻿  mytest.cpp
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mytest.cpp(22): error C2440: “初始化”: 无法从“float *”转换为“int *”
-  c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mytest.cpp(22): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+  Test.vcxproj -> C:\Users\prettyboy\documents\visual studio 2015\Projects\Leetcode\Debug\Test.exe

@@ -22,3 +22,13 @@ cur->next = pre->next; //将cur插入pre->next之前
 pre->next = cur;//将cur插入pre之后
 cur = pNext;//递增进入下一个
 ```
+
+##22.Generate Patenthese
+
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+##219. Contains Duplicate I
+对于寻找重复元素记得可以用map 来记录元素的索引！
+``` C
+map.find(nums[i] != map.end())
+```
