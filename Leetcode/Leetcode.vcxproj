@@ -166,6 +166,11 @@
     <ClCompile Include="142LinkedListCycleII.cpp" />
     <ClCompile Include="147InsertionSortList.cpp" />
     <ClCompile Include="148SortList.cpp" />
+    <ClCompile Include="153.Find Minimum in Rotated Sorted Array_hard.cpp" />
+    <ClCompile Include="154.Find Minimum inRotated Sorted Array II.cpp" />
+    <ClCompile Include="155.MinStack.cpp" />
+    <ClCompile Include="16.3Sum Closest_midium.cpp" />
+    <ClCompile Include="165.CompareVersionNumbers.cpp" />
     <ClCompile Include="19RomoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="203RomoveLinkedListElement.cpp" />
     <ClCompile Include="206ReverseLinkedList.cpp" />
@@ -176,9 +181,11 @@
     <ClCompile Include="220Contains Duplicate III.cpp" />
     <ClCompile Include="22GenerateParentheses.cpp" />
     <ClCompile Include="234.PalindromeLinkedList.cpp" />
+    <ClCompile Include="239.SlidingWindowMaxium.cpp" />
     <ClCompile Include="23MergekSortedLists.cpp" />
     <ClCompile Include="24SwapNodesinPairs.cpp" />
     <ClCompile Include="260.SingleNumberIII.cpp" />
+    <ClCompile Include="268.MissingNumber.cpp" />
     <ClCompile Include="26RemoveduplicatefromSortedArray.cpp" />
     <ClCompile Include="27RemoveElement.cpp" />
     <ClCompile Include="283Move Zeroes.cpp" />
@@ -188,8 +195,13 @@
     <ClCompile Include="36ValidSudoku.cpp" />
     <ClCompile Include="37SudokuSolver.cpp" />
     <ClCompile Include="38CountandSay.cpp" />
+    <ClCompile Include="41.FirstMissingPositive_hard.cpp" />
     <ClCompile Include="43.MultiplyStrings.cpp" />
+    <ClCompile Include="54SpiralMatrixII_medium.cpp" />
     <ClCompile Include="58. Length of Last Word.cpp" />
+    <ClCompile Include="59.SpiralMatrix.cpp" />
+    <ClCompile Include="62.UniquePaths.cpp" />
+    <ClCompile Include="63.UniquePathsII.cpp" />
     <ClCompile Include="66. Plus One.cpp" />
     <ClCompile Include="67.AddBinary.cpp" />
     <ClCompile Include="70ClimbingStairs.cpp" />

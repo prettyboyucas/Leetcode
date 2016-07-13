@@ -195,6 +195,42 @@
     <ClCompile Include="260.SingleNumberIII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="268.MissingNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41.FirstMissingPositive_hard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.3Sum Closest_midium.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59.SpiralMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54SpiralMatrixII_medium.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="153.Find Minimum in Rotated Sorted Array_hard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="154.Find Minimum inRotated Sorted Array II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62.UniquePaths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63.UniquePathsII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="155.MinStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="239.SlidingWindowMaxium.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="165.CompareVersionNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
