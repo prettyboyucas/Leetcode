@@ -16,7 +16,7 @@ public:
 			if (pHead->next == head)
 				pHead = pHead->next;
 			else
-				pHead->next = head->next;
+				pHead->next = head->next;//如果是最后两个数相同，则head->next = null。
 			head = head->next;
 		}
 		return pAux->next;

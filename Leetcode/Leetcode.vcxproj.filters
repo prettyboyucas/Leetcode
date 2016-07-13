@@ -144,6 +144,57 @@
     <ClCompile Include="113PathSumII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="118Pascal%27sTriangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="119Pascal%27sTriangleII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="121BestTimetoBuyand SellStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="122. Best Time to Buy and Sell Stock II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="123. Best Time to Buy and Sell Stock III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="125.ValidPalindrome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="234.PalindromeLinkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="206ReverseLinkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="92. Reverse Linked List II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="89PartitionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="86.PartitionList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="141.LinkedListCycle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="142LinkedListCycleII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="287.FindtheDuplicateNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="136.SingleNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="137SingleNUmberII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="260.SingleNumberIII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

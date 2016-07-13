@@ -2,7 +2,7 @@ class Solution {
 public:
 	ListNode* reverseBetween(ListNode* head, int m, int n) {
 		if (head == nullptr || head->next == nullptr || m == n)
-			return head;
+			return head;//可以不要一样的
 		ListNode* pAux = new ListNode(0);
 		pAux->next = head;
 		ListNode* pnode = head;

@@ -19,6 +19,11 @@
 #include <cstdio>
 #include <limits>
 #include <map>
+#include <unordered_map>
+#include <numeric>
+
+#include <cctype> //isalnum()
+#include <bitset> //bitset
 
 
 // TODO:  在此处引用程序需要的其他头文件
