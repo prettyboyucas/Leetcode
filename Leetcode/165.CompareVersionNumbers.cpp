@@ -120,3 +120,60 @@ public:
 		return 0;
 	}
 };
+
+
+class Solution {
+public:
+	int compareVersion(string version1, string version2) {
+
+		//if (version1.empty() || version2.empty())
+		//	return 0;
+		vector<long> v1, v2;
+
+		const char* str1 = version1.c_str();
+		const char* str2 = version2.c_str();
+
+		split_version1(str1, v1);
+		split_version1(str2, v2);
+
+		for (int i = 0; i < v1.size() || i < v2.size(); i++) {
+
+			int ver1 = (i < v1.size()) ? v1[i] : 0;
+			int ver2 = (i < v2.size()) ? v2[i] : 0;
+			if (ver1 > ver2)
+				return 1;
+			else if (ver2 > ver1)
+				return -1;
+		}
+		return 0;
+
+
+
+	}
+private:
+	void split_version(const char*str, vector<int>& v) {
+		//char * strtok ( char * str, const char * delimiters );
+		char *buf = new char[strlen(str) + 1];
+		//char *bur = (char*) malloc(size(char)*(strlen(str)+1));
+		strcpy(buf, str);
+		char* p = strtok(buf, ".");
+		while (p != nullptr) {
+			v.push_back(atoi(p));
+			p = strtok(nullptr, ".");
+		}
+		//delete buf;
+		//buf = nullptr;
+	}
+	void split_version1(const char* str, vector<long> v) {
+		char* buf = new char[strlen(str) + 1];
+		strcpy(buf, str);
+		while (*buf != '\0') {
+			long temp = strtol(buf, &buf, 10);
+			v.push_back(temp);
+			if (*buf != '\0')
+				buf++;
+		}
+		delete buf;
+		buf = nullptr;
+	}
+};

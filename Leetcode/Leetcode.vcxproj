@@ -171,7 +171,10 @@
     <ClCompile Include="155.MinStack.cpp" />
     <ClCompile Include="16.3Sum Closest_midium.cpp" />
     <ClCompile Include="165.CompareVersionNumbers.cpp" />
+    <ClCompile Include="168.Excel Sheet Column Title.cpp" />
+    <ClCompile Include="171ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="19RomoveNthNodeFromEndofList.cpp" />
+    <ClCompile Include="202.Happy Number.cpp" />
     <ClCompile Include="203RomoveLinkedListElement.cpp" />
     <ClCompile Include="206ReverseLinkedList.cpp" />
     <ClCompile Include="20ValidParentheses.cpp" />
@@ -185,6 +188,8 @@
     <ClCompile Include="23MergekSortedLists.cpp" />
     <ClCompile Include="24SwapNodesinPairs.cpp" />
     <ClCompile Include="260.SingleNumberIII.cpp" />
+    <ClCompile Include="263.UglyNumber.cpp" />
+    <ClCompile Include="264. Ugly Number II.cpp" />
     <ClCompile Include="268.MissingNumber.cpp" />
     <ClCompile Include="26RemoveduplicatefromSortedArray.cpp" />
     <ClCompile Include="27RemoveElement.cpp" />

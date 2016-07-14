@@ -231,6 +231,21 @@
     <ClCompile Include="165.CompareVersionNumbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="168.Excel Sheet Column Title.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="171ExcelSheetColumnNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202.Happy Number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="263.UglyNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="264. Ugly Number II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
