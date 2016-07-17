@@ -246,6 +246,48 @@
     <ClCompile Include="264. Ugly Number II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="204.CountPrimes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="279.PerfectSquares.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="169.MajorityElement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="229.Majority ElementII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="172.Factorial Trailing Zeros.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="233.NumberofDigitOne.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="189RotateArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="190.ReverseBits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="191.Numberof 1 Bits .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="371.SumofTwo Integers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="205.IsomorphicStrings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="342.PowerofFour.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="231.PowerofTwo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="326.PowerofThree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
