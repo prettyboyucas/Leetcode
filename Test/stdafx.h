@@ -24,6 +24,11 @@
 
 #include <cctype> //isalnum()
 #include <bitset> //bitset
+#include <memory> //shared_ptr
+#include <cmath>
+#include <ctime>  //srand(time(0));
+#include <set>   //set
+#include <sstream>  //istringstream ostringstream, stringstream
 
 
 // TODO:  在此处引用程序需要的其他头文件

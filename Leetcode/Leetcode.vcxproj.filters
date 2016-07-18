@@ -288,6 +288,45 @@
     <ClCompile Include="326.PowerofThree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="78.Subsets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90.SubsetsII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="198HouseRobber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="233.RectangleArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="225.ImplementStackusingQueues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="232Implement Queue using Stacks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="226.InvertBinaryTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="222.CountCompleteTreeNodes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="297.Serialize and Deserialize Binary Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="235.LowestComminAncestorofaBinarysearchTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="236.Lowest Common Ancestor of a Binary Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="242.ValidAnagram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49.GroupAnagrams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
