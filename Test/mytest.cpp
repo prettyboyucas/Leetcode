@@ -25,6 +25,57 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+class Solution {
+public:
+	vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+		unordered_map<int, int> dict;
+		vector<int> res;
+
+		for (int i = 0; i < (int)nums1.size(); i++)
+			dict[nums1[i]] ++;
+		for (int i = 0; i < (int)nums2.size(); i++)
+			if (dict.find(nums2[i]) != dict.end() && --dict[nums2[i]] >= 0) res.push_back(nums2[i]);//空间复杂度o(m),比下面的o(m+n)小。
+		//	if (--dict[nums2[i]] >= 0)
+			//	res.push_back(nums2[i]);
+		return res;
+	}
+};
+
+class Solution {
+public:
+	vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+
+		sort(nums1.begin(), nums1.end());
+		sort(nums2.begin(), nums2.end());
+		int n1 = nums1.size();
+		int n2 = nums2.size();
+		int i1 = 0;
+		int i2 = 0;
+
+
+		vector<int> res;
+
+		while(i1 < n1 && i2 < n2) {
+			if (nums1[i1] == nums2[i2])
+			{
+				res.push_back(nums1[i1]);
+				i1++;
+				i2++;
+
+			}
+			else if (nums1[i1] > nums2[i2]) {
+				i2++;
+			}
+			else {
+				i1++;
+			}
+		}
+		return res;
+	}
+};
+
+
+
 
 
 int main(){
@@ -40,6 +91,10 @@ int main(){
 		ptr = strtok_s(nullptr, '.', &context);
 	}
 	*/
+	Solution ss;
+	cout << ss.reverseString("abcdefghigklmnopqrstuvwxyz") << endl;
+
+
 	vector<bool> bits;
 	bits.push_back(true);
 	const bool& j = bits.front();

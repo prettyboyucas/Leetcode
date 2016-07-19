@@ -327,6 +327,42 @@
     <ClCompile Include="49.GroupAnagrams.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="257.Binary Tree Paths%27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="124.Binary Tree Maximum Path Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="258.AddDigits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="278.First Bad Version.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="290.WordPattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="292.Nim Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="299.Bulls and Cows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="303Range Sum Query - immutable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="344.ReverseString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="345.Reverse Vowels of a String .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="349.Intersection of Two Arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="350.Intersection of Two ArraysII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
