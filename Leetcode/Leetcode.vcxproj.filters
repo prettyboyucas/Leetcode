@@ -363,6 +363,18 @@
     <ClCompile Include="350.Intersection of Two ArraysII.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="374.Guess Number Hgerher or Lower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="375.GuessNumberHigher or LowerII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="347.TopKFrequent Elements.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.4Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

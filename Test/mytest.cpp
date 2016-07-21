@@ -25,54 +25,47 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+//如果sum小于0，重置为0
 class Solution {
 public:
-	vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-		unordered_map<int, int> dict;
-		vector<int> res;
-
-		for (int i = 0; i < (int)nums1.size(); i++)
-			dict[nums1[i]] ++;
-		for (int i = 0; i < (int)nums2.size(); i++)
-			if (dict.find(nums2[i]) != dict.end() && --dict[nums2[i]] >= 0) res.push_back(nums2[i]);//空间复杂度o(m),比下面的o(m+n)小。
-		//	if (--dict[nums2[i]] >= 0)
-			//	res.push_back(nums2[i]);
-		return res;
-	}
-};
-
-class Solution {
-public:
-	vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-
-		sort(nums1.begin(), nums1.end());
-		sort(nums2.begin(), nums2.end());
-		int n1 = nums1.size();
-		int n2 = nums2.size();
-		int i1 = 0;
-		int i2 = 0;
-
-
-		vector<int> res;
-
-		while(i1 < n1 && i2 < n2) {
-			if (nums1[i1] == nums2[i2])
-			{
-				res.push_back(nums1[i1]);
-				i1++;
-				i2++;
-
-			}
-			else if (nums1[i1] > nums2[i2]) {
-				i2++;
-			}
-			else {
-				i1++;
-			}
+	int maxSubArray(vector<int>& nums) {
+		int maxSum = numeric_limits<int>::min();
+		int sum = 0;
+		for (auto& ele : nums) {
+			sum += ele;
+			maxSum = max(maxSum, sum);//保存最大值
+			sum = sum < 0 ? 0 : sum;//如果sum小于0，重置为0
 		}
-		return res;
+
+		return maxSum;
 	}
 };
+//动态规划呢
+class Solution {
+public:
+	int maxSubArray(vector<int>& nums) {
+		int lens = nums.size();
+		int res;
+		vector<int> sum(lens + 1, 0);
+		for (int i = 0; i < lens, i++) {
+			sum[i + 1] = sum[i]>0 ? sum[i] + nums[i] : nums[i];
+			if(sum[i+1]>res)
+				res = 
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,8 +84,18 @@ int main(){
 		ptr = strtok_s(nullptr, '.', &context);
 	}
 	*/
+
 	Solution ss;
-	cout << ss.reverseString("abcdefghigklmnopqrstuvwxyz") << endl;
+	cout << ss.lengthOfLongestSubstring("dvdf") << endl;
+	unordered_set<char> m;
+	m.insert('a');
+	m.insert('f');
+	m.insert('c');
+	m.insert('a');
+	m.insert('h');
+	m.erase(m.begin(), next(m.find('f')));
+	for (auto& item : m)
+		cout << item << " ";
 
 
 	vector<bool> bits;

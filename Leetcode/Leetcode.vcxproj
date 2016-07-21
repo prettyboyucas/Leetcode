@@ -157,6 +157,7 @@
     <ClCompile Include="113PathSumII.cpp" />
     <ClCompile Include="118Pascal%27sTriangle.cpp" />
     <ClCompile Include="119Pascal%27sTriangleII.cpp" />
+    <ClCompile Include="120.Triangle.cpp" />
     <ClCompile Include="121BestTimetoBuyand SellStock.cpp" />
     <ClCompile Include="122. Best Time to Buy and Sell Stock II.cpp" />
     <ClCompile Include="123. Best Time to Buy and Sell Stock III.cpp" />
@@ -176,6 +177,7 @@
     <ClCompile Include="169.MajorityElement.cpp" />
     <ClCompile Include="171ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="172.Factorial Trailing Zeros.cpp" />
+    <ClCompile Include="18.4Sum.cpp" />
     <ClCompile Include="189RotateArray.cpp" />
     <ClCompile Include="190.ReverseBits.cpp" />
     <ClCompile Include="191.Numberof 1 Bits .cpp" />
@@ -225,15 +227,19 @@
     <ClCompile Include="297.Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="299.Bulls and Cows.cpp" />
     <ClCompile Include="29DivideTwointegers.cpp" />
+    <ClCompile Include="3.Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="303Range Sum Query - immutable.cpp" />
     <ClCompile Include="326.PowerofThree.cpp" />
     <ClCompile Include="342.PowerofFour.cpp" />
     <ClCompile Include="344.ReverseString.cpp" />
     <ClCompile Include="345.Reverse Vowels of a String .cpp" />
+    <ClCompile Include="347.TopKFrequent Elements.cpp" />
     <ClCompile Include="349.Intersection of Two Arrays.cpp" />
     <ClCompile Include="350.Intersection of Two ArraysII.cpp" />
     <ClCompile Include="36ValidSudoku.cpp" />
     <ClCompile Include="371.SumofTwo Integers.cpp" />
+    <ClCompile Include="374.Guess Number Hgerher or Lower.cpp" />
+    <ClCompile Include="375.GuessNumberHigher or LowerII.cpp" />
     <ClCompile Include="37SudokuSolver.cpp" />
     <ClCompile Include="38CountandSay.cpp" />
     <ClCompile Include="41.FirstMissingPositive_hard.cpp" />
