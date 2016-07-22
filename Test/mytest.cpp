@@ -8,6 +8,18 @@
 #include <process.h>
 //#include <boost/algorithm/string.hpp>
 
+#include <boost/lexical_cast.hpp>
+#include <boost\optional.hpp>
+#include <boost/variant.hpp>
+#include <boost/thread/thread.hpp>
+#include <boost/pending/disjoint_sets.hpp>
+//#include <boost\disjoint_sets.hpp>
+#include <cstdio>
+#include <cstring>
+
+
+
+
 using namespace std;
 
 
@@ -25,34 +37,44 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-//如果sum小于0，重置为0
-class Solution {
-public:
-	int maxSubArray(vector<int>& nums) {
-		int maxSum = numeric_limits<int>::min();
-		int sum = 0;
-		for (auto& ele : nums) {
-			sum += ele;
-			maxSum = max(maxSum, sum);//保存最大值
-			sum = sum < 0 ? 0 : sum;//如果sum小于0，重置为0
-		}
 
-		return maxSum;
-	}
-};
-//动态规划呢
-class Solution {
-public:
-	int maxSubArray(vector<int>& nums) {
-		int lens = nums.size();
-		int res;
-		vector<int> sum(lens + 1, 0);
-		for (int i = 0; i < lens, i++) {
-			sum[i + 1] = sum[i]>0 ? sum[i] + nums[i] : nums[i];
-			if(sum[i+1]>res)
-				res = 
+
+
+constexpr int maxn = 10;
+int A[maxn + 1] = { 0,1,2,3,4,5,6,7,8,9,10 };//已经是某些项的和了。
+int a[maxn + 1] = {0};
+//memset(a, 0, maxn + 1);
+//fill_n(a, maxn + 1, 0);
+
+int lowbit(int x)
+{
+	return x&(-x);
+}
+
+void initial(int* A,int len, int* a) {
+	for (int i = 1; i <= len; i++) {
+		int start = len - lowbit(i) + 1;
+		for (int j = start; j <= len; j++) {
+			a[i] += A[j];
 		}
 	}
+}
+
+
+
+void add(int x, int y, int n) {
+	while (x <= n) {
+		a[x] += y;
+		x += lowbit(x);
+	}
+}
+int sum(int x) {
+	int s = 0;
+	while (x > 0) {
+		s += a[x];
+		x -= lowbit(x);
+	}
+	return s;
 }
 
 
@@ -63,63 +85,10 @@ public:
 
 
 
-
-
-
-
-
-
-
-
 int main(){
-	/*
-	char* context = nullptr;
-	 char* str1 = "1.2*3";
-	 const char* sep = ".*";
-	char* ptr = strtok_s(str1, sep, &context);
+	//fill_n(a, maxn + 1, 0);
+	cout << a[0] << " " << a[1] << endl;
 	
-
-	while (ptr != nullptr) {
-		cout << *ptr << endl;
-		ptr = strtok_s(nullptr, '.', &context);
-	}
-	*/
-
-	Solution ss;
-	cout << ss.lengthOfLongestSubstring("dvdf") << endl;
-	unordered_set<char> m;
-	m.insert('a');
-	m.insert('f');
-	m.insert('c');
-	m.insert('a');
-	m.insert('h');
-	m.erase(m.begin(), next(m.find('f')));
-	for (auto& item : m)
-		cout << item << " ";
-
-
-	vector<bool> bits;
-	bits.push_back(true);
-	const bool& j = bits.front();
-
-	int data[] = { 3,2,3,8,8,8,8,8,8,8,5 };
-	int data1[] = { 3,2,3 };
-
-		
-
-	//ss.QuickSort(data, 6, 0, 11);
-	//cout << ss.MoreThanHalfNum(data1, 3) << endl;;
-	//for (int i = 0; i < 11; i++) {
-	//	cout << data[i] << " ";
-	//}
-	
-	//cout << a << end;
-	vector<int> vec{ 1,2,3,4,5,5,4,2,1 };
-	string s = "1010101010";
-	//cout << sizeof(int) << endl;
-	int diff = 0b001110100;
-	//int res = diff&(-diff);
-	//cout << res << endl;
 	getchar();
 	return 0;
 }

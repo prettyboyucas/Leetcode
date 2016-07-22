@@ -163,6 +163,8 @@
     <ClCompile Include="123. Best Time to Buy and Sell Stock III.cpp" />
     <ClCompile Include="124.Binary Tree Maximum Path Sum.cpp" />
     <ClCompile Include="125.ValidPalindrome.cpp" />
+    <ClCompile Include="131.PalindromePartitioning.cpp" />
+    <ClCompile Include="132.Palindrome Partitioning.cpp" />
     <ClCompile Include="136.SingleNumber.cpp" />
     <ClCompile Include="137SingleNUmberII.cpp" />
     <ClCompile Include="142LinkedListCycleII.cpp" />
@@ -245,6 +247,7 @@
     <ClCompile Include="41.FirstMissingPositive_hard.cpp" />
     <ClCompile Include="43.MultiplyStrings.cpp" />
     <ClCompile Include="49.GroupAnagrams.cpp" />
+    <ClCompile Include="53.Maximum Subarray.cpp" />
     <ClCompile Include="54SpiralMatrixII_medium.cpp" />
     <ClCompile Include="58. Length of Last Word.cpp" />
     <ClCompile Include="59.SpiralMatrix.cpp" />

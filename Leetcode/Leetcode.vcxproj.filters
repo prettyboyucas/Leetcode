@@ -375,6 +375,21 @@
     <ClCompile Include="18.4Sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="120.Triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.Longest Substring Without Repeating Characters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53.Maximum Subarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="132.Palindrome Partitioning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="131.PalindromePartitioning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

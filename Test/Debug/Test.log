@@ -1,1 +1,11 @@
-﻿  Test.vcxproj -> C:\Users\prettyboy\documents\visual studio 2015\Projects\Leetcode\Debug\Test.exe
+﻿  MyStack.cpp
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(29): error C3861: “full”: 找不到标识符
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2672: “std::empty”: 未找到匹配的重载函数
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “bool std::empty(std::initializer_list<_Elem>) noexcept”: 应输入 1 个参数，却提供了 0 个
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1377): note: 参见“std::empty”的声明
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “bool std::empty(const _Ty (&)[_Size]) noexcept”: 应输入 1 个参数，却提供了 0 个
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1371): note: 参见“std::empty”的声明
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “unknown-type std::empty(const _Container &)”: 应输入 1 个参数，却提供了 0 个
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1363): note: 参见“std::empty”的声明
+c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(56): error C2039: “size”: 不是“MyStack”的成员
+  c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.h(7): note: 参见“MyStack”的声明
