@@ -13,11 +13,11 @@ public:
 	void push(int);       // push an int into a MyStack
 	int  pop();            // pop an int from a MyStack
 
-	//bool empty() const;    // is the MyStack empty?
-	//bool full() const;     // is the MyStack full?
+	bool empty() const { return true; } // is the MyStack empty?
+	bool full() const { return true; }    // is the MyStack full?
 
-	//int capacity() const;  // capacity of the MyStack
-	//int size() const;      // current size of the MyStack
+	int capacity() const { return 0;}  // capacity of the MyStack
+	int size() const { return 0; }      // current size of the MyStack
 
 	friend ostream &operator <<(ostream &, const MyStack &);
 

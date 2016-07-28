@@ -168,6 +168,8 @@
     <ClCompile Include="136.SingleNumber.cpp" />
     <ClCompile Include="137SingleNUmberII.cpp" />
     <ClCompile Include="142LinkedListCycleII.cpp" />
+    <ClCompile Include="144.BianryTreePreorderTraveersal.cpp" />
+    <ClCompile Include="145.BianryTreePostorderTraveral.cpp" />
     <ClCompile Include="147InsertionSortList.cpp" />
     <ClCompile Include="148SortList.cpp" />
     <ClCompile Include="153.Find Minimum in Rotated Sorted Array_hard.cpp" />
@@ -190,6 +192,7 @@
     <ClCompile Include="204.CountPrimes.cpp" />
     <ClCompile Include="205.IsomorphicStrings.cpp" />
     <ClCompile Include="206ReverseLinkedList.cpp" />
+    <ClCompile Include="209.MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="20ValidParentheses.cpp" />
     <ClCompile Include="217containDuplicate.cpp" />
     <ClCompile Include="219containsDuplicateII.cpp" />
@@ -209,6 +212,8 @@
     <ClCompile Include="236.Lowest Common Ancestor of a Binary Tree.cpp" />
     <ClCompile Include="239.SlidingWindowMaxium.cpp" />
     <ClCompile Include="23MergekSortedLists.cpp" />
+    <ClCompile Include="240.Searcha 2D MatrixII.cpp" />
+    <ClCompile Include="240.Searcha2DMatrix.cpp" />
     <ClCompile Include="242.ValidAnagram.cpp" />
     <ClCompile Include="24SwapNodesinPairs.cpp" />
     <ClCompile Include="257.Binary Tree Paths%27.cpp" />
@@ -218,6 +223,8 @@
     <ClCompile Include="264. Ugly Number II.cpp" />
     <ClCompile Include="268.MissingNumber.cpp" />
     <ClCompile Include="26RemoveduplicatefromSortedArray.cpp" />
+    <ClCompile Include="274.H-index.cpp" />
+    <ClCompile Include="275.H-IndexII.cpp" />
     <ClCompile Include="278.First Bad Version.cpp" />
     <ClCompile Include="279.PerfectSquares.cpp" />
     <ClCompile Include="27RemoveElement.cpp" />
@@ -230,14 +237,18 @@
     <ClCompile Include="299.Bulls and Cows.cpp" />
     <ClCompile Include="29DivideTwointegers.cpp" />
     <ClCompile Include="3.Longest Substring Without Repeating Characters.cpp" />
+    <ClCompile Include="30.SubStringwith concatenation of all words.cpp" />
+    <ClCompile Include="300.Longest increasing Subsequence.cpp" />
     <ClCompile Include="303Range Sum Query - immutable.cpp" />
     <ClCompile Include="326.PowerofThree.cpp" />
+    <ClCompile Include="33.Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="342.PowerofFour.cpp" />
     <ClCompile Include="344.ReverseString.cpp" />
     <ClCompile Include="345.Reverse Vowels of a String .cpp" />
     <ClCompile Include="347.TopKFrequent Elements.cpp" />
     <ClCompile Include="349.Intersection of Two Arrays.cpp" />
     <ClCompile Include="350.Intersection of Two ArraysII.cpp" />
+    <ClCompile Include="367.ValidPerfectSquare.cpp" />
     <ClCompile Include="36ValidSudoku.cpp" />
     <ClCompile Include="371.SumofTwo Integers.cpp" />
     <ClCompile Include="374.Guess Number Hgerher or Lower.cpp" />
@@ -247,6 +258,7 @@
     <ClCompile Include="41.FirstMissingPositive_hard.cpp" />
     <ClCompile Include="43.MultiplyStrings.cpp" />
     <ClCompile Include="49.GroupAnagrams.cpp" />
+    <ClCompile Include="50.Pow(x,n).cpp" />
     <ClCompile Include="53.Maximum Subarray.cpp" />
     <ClCompile Include="54SpiralMatrixII_medium.cpp" />
     <ClCompile Include="58. Length of Last Word.cpp" />
@@ -255,9 +267,12 @@
     <ClCompile Include="63.UniquePathsII.cpp" />
     <ClCompile Include="66. Plus One.cpp" />
     <ClCompile Include="67.AddBinary.cpp" />
+    <ClCompile Include="69.Sqrt(x).cpp" />
     <ClCompile Include="70ClimbingStairs.cpp" />
+    <ClCompile Include="76MINimumWindowsSubstring.cpp" />
     <ClCompile Include="78.Subsets.cpp" />
     <ClCompile Include="80.SameTree.cpp" />
+    <ClCompile Include="81.Search in Rotated Sorted ArrayII.cpp" />
     <ClCompile Include="82.RemoveDuplicatesfromSortedListII.cpp" />
     <ClCompile Include="83.RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="86.PartitionList.cpp" />
@@ -266,10 +281,15 @@
     <ClCompile Include="90.SubsetsII.cpp" />
     <ClCompile Include="92. Reverse Linked List II.cpp" />
     <ClCompile Include="141.LinkedListCycle.cpp" />
+    <ClCompile Include="94.Binary Tree inorder TRaversal.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="354.Russian Doll Envelopes.cpp" />
+    <None Include="363.MaxSum of Rectangle No Larger Than K.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

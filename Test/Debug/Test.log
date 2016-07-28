@@ -1,11 +1,32 @@
-﻿  MyStack.cpp
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(29): error C3861: “full”: 找不到标识符
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2672: “std::empty”: 未找到匹配的重载函数
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “bool std::empty(std::initializer_list<_Elem>) noexcept”: 应输入 1 个参数，却提供了 0 个
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1377): note: 参见“std::empty”的声明
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “bool std::empty(const _Ty (&)[_Size]) noexcept”: 应输入 1 个参数，却提供了 0 个
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1371): note: 参见“std::empty”的声明
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(40): error C2780: “unknown-type std::empty(const _Container &)”: 应输入 1 个参数，却提供了 0 个
-  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(1363): note: 参见“std::empty”的声明
-c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.cpp(56): error C2039: “size”: 不是“MyStack”的成员
-  c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mystack.h(7): note: 参见“MyStack”的声明
+﻿  mytest.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(170): error C2440: “=”: 无法从“std::string”转换为“char”
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(170): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(207): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Partial_sum<_InIt,char*,std::string(__cdecl *)(char,char),char>(_InIt,_InIt,_OutIt,_Fn2,_Ty *)”的引用
+          with
+          [
+              _OutIt=char *,
+              _InIt=char *,
+              _Fn2=std::string (__cdecl *)(char,char),
+              _Ty=char
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(218): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Partial_sum2<_InIt,_OutIt,std::string(__cdecl *)(char,char)>(_InIt,_InIt,_OutIt,_Fn2,std::random_access_iterator_tag,std::random_access_iterator_tag)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _InIt=char *,
+              _Fn2=std::string (__cdecl *)(char,char)
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\numeric(242): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Partial_sum2<char*,_OutIt,std::string(__cdecl *)(char,char)>(_InIt,_InIt,_OutIt,_Fn2,std::true_type)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _InIt=char *,
+              _Fn2=std::string (__cdecl *)(char,char)
+          ]
+  c:\users\prettyboy\documents\visual studio 2015\projects\leetcode\test\mytest.cpp(53): note: 参见对正在编译的函数 模板 实例化“_OutIt std::partial_sum<std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,std::string(__cdecl *)(char,char)>(_InIt,_InIt,_OutIt,_Fn2)”的引用
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn2=std::string (__cdecl *)(char,char)
+          ]

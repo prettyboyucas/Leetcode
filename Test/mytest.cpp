@@ -2,20 +2,7 @@
 
 
 #include "stdafx.h"
-#include <stdio.h>
-#include <ctime>
-#include <thread>
-#include <process.h>
-//#include <boost/algorithm/string.hpp>
-
-#include <boost/lexical_cast.hpp>
-#include <boost\optional.hpp>
-#include <boost/variant.hpp>
-#include <boost/thread/thread.hpp>
-#include <boost/pending/disjoint_sets.hpp>
-//#include <boost\disjoint_sets.hpp>
-#include <cstdio>
-#include <cstring>
+#include "quote.h"
 
 
 
@@ -36,59 +23,160 @@ struct TreeNode {
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+class Solution {
+public:
+	int kthSmallest(TreeNode* root, int k) {
+
+	}
+};
 
 
 
+class Solution {//修改右指针
+public:
+	vector<int> inorderTraversal(TreeNode* root) {
+		vector<int> res;
+		if (root == nullptr)
+			return res;
 
-constexpr int maxn = 10;
-int A[maxn + 1] = { 0,1,2,3,4,5,6,7,8,9,10 };//已经是某些项的和了。
-int a[maxn + 1] = {0};
-//memset(a, 0, maxn + 1);
-//fill_n(a, maxn + 1, 0);
+		TreeNode* cur = root;
+		TreeNode* pre = nullptr;
 
-int lowbit(int x)
-{
-	return x&(-x);
-}
-
-void initial(int* A,int len, int* a) {
-	for (int i = 1; i <= len; i++) {
-		int start = len - lowbit(i) + 1;
-		for (int j = start; j <= len; j++) {
-			a[i] += A[j];
+		while (cur != nullptr) {
+			if (cur->left == nullptr) {
+				res.push_back(cur->val);
+				cur = cur->right;
+			}
+			else {
+				pre = cur->left;
+				while (pre->right != nullptr && pre->right != cur)
+					pre = pre->right;
+				if (pre->right == nullptr) {
+					pre->right = cur;
+					cur = cur->left;
+				}
+				else if (pre->right == cur) {
+					pre->right = nullptr;
+					res.push_back(cur->val);
+					cur = cur->right;
+				}
+			}
 		}
+		return res;
+
 	}
-}
 
 
 
-void add(int x, int y, int n) {
-	while (x <= n) {
-		a[x] += y;
-		x += lowbit(x);
+};
+
+class Solution {//修改右指针
+public:
+	vector<int> preorderTraversal(TreeNode* root) {
+		vector<int> res;
+		if (root == nullptr)
+			return res;
+
+		TreeNode* cur = root;
+		TreeNode* pre = nullptr;
+
+		while (cur != nullptr) {
+
+			
+
+			if (cur->left == nullptr) {
+				res.push_back(cur->val);
+				cur = cur->right;
+			}
+			else {
+
+				pre = cur->left;
+				while (pre->right != nullptr && pre->right != cur)
+					pre = pre->right;//前驱节点
+
+
+				if (pre->right == nullptr) {
+					pre->right = cur;
+					res.push_back(cur->val);//这就是先需了哇？
+					cur = cur->left; //继续左走
+				}
+				else if (pre->right == cur) {//左走完了，恢复原状，右走
+					pre->right = nullptr;
+					//res.push_back(cur->val);
+					cur = cur->right;
+				}
+			}
+		}
+		return res;
+
 	}
-}
-int sum(int x) {
-	int s = 0;
-	while (x > 0) {
-		s += a[x];
-		x -= lowbit(x);
+
+
+
+};
+
+
+
+class Solution {//修改右指针
+public:
+	vector<int> postorderTraversal(TreeNode* root) {
+		vector<int> res;
+		if (root == nullptr)
+			return res;
+
+		TreeNode* cur = root;
+		TreeNode* pre = nullptr;
+
+		while (cur != nullptr) {
+
+
+
+			if (cur->right == nullptr) {
+				res.insert(res.begin(),cur->val);
+				cur = cur->left;
+			}
+			else {
+
+				pre = cur->right;
+				while (pre->left != nullptr && pre->left != cur)
+					pre = pre->left;//前驱节点
+
+
+				if (pre->left == nullptr) {
+					pre->left = cur;
+					//res.push_back(cur->val);//这就是先需了哇？
+					res.insert(res.begin(), cur->val);
+					cur = cur->right; //继续左走
+				}
+				else if (pre->left == cur) {//左走完了，恢复原状，右走
+					pre->left = nullptr;
+					//res.push_back(cur->val);
+					cur = cur->left;
+				}
+			}
+		}
+		return res;
+
 	}
-	return s;
-}
+};
 
 
 
 
 
+int main() {
+
+	string str1("ABCDEFG");
+	string str2(7, '\1');
+	char a = 'a';
+	char b = 'b';
+	cout << addchar(a, b);
+	cout << endl;
 
 
-
-
-int main(){
-	//fill_n(a, maxn + 1, 0);
-	cout << a[0] << " " << a[1] << endl;
-	
+	cout << "hahaha" << endl;
+	partial_sum(str1.begin(), str1.end(), str2.begin(),addchar);
+	cout << str2 << endl;
 	getchar();
 	return 0;
 }

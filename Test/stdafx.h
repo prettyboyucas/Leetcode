@@ -33,3 +33,21 @@
 
 
 // TODO:  在此处引用程序需要的其他头文件
+
+
+#include <stdio.h>
+#include <ctime>
+#include <thread>
+#include <process.h>
+//#include <boost/algorithm/string.hpp>
+
+#include <boost/lexical_cast.hpp>
+#include <boost\optional.hpp>
+#include <boost/variant.hpp>
+#include <boost/thread/thread.hpp>
+#include <boost/pending/disjoint_sets.hpp>
+//#include <boost\disjoint_sets.hpp>
+#include <cstdio>
+#include <cstring>
+#include <memory>
+

@@ -24,7 +24,10 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MyStack.h">
+    <ClInclude Include="MemoryBlock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quote.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -39,9 +42,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mytest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MyStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -390,10 +390,66 @@
     <ClCompile Include="131.PalindromePartitioning.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="50.Pow(x,n).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="367.ValidPerfectSquare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="69.Sqrt(x).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="300.Longest increasing Subsequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="274.H-index.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="275.H-IndexII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="240.Searcha 2D MatrixII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="240.Searcha2DMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33.Search in Rotated Sorted Array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="81.Search in Rotated Sorted ArrayII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="209.MinimumSizeSubarraySum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76MINimumWindowsSubstring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.SubStringwith concatenation of all words.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="94.Binary Tree inorder TRaversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="144.BianryTreePreorderTraveersal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="145.BianryTreePostorderTraveral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="363.MaxSum of Rectangle No Larger Than K.cpp">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="354.Russian Doll Envelopes.cpp">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
