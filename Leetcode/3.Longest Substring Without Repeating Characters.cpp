@@ -1,4 +1,4 @@
-class Solution {//""dvdf怎么老是通不过啊
+class Solution {//""dvdf锟斤拷么锟斤拷锟斤拷通锟斤拷锟斤拷锟斤拷
 public:
 	int lengthOfLongestSubstring(string s) {
 		if (s.empty())
@@ -37,3 +37,5 @@ public:
 		return maxLen;
 	}
 };
+
+/*test**/
